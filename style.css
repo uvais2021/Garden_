@@ -1,0 +1,630 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+:root {
+    --bg: #356618;
+
+}
+
+body {
+    background-image: url(./images/bg-body.jpg);
+}
+
+.bgContainer {
+    background-color: #356618;
+    width: 70%;
+    height: 245vh;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+    margin: 0px 2px 2px 205px;
+}
+
+.logo {
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+}
+
+.u2 {
+    background-color: white;
+    width: 100%;
+    height: 120vh;
+    /* margin-top: 10px; */
+    padding-top: 5px;
+
+}
+
+.u1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    margin-left: 23px;
+}
+
+.logo img {
+
+    margin: 15px 0 0 260px;
+
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 10px;
+    background-color: #4b4b4b;
+}
+
+.navLinks li {
+    list-style-type: none;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #F0F2C9;
+}
+
+.navLinks li a:hover {
+    background-color: #F0F2C9;
+    color: #1b330c;
+}
+
+.heroContainer {
+    background-image: url(./images/gardening1.jpg);
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.heroContainer .contents {
+    /* margin-top: 50px; */
+    background-color: rgba(57, 57, 57, 0.7);
+    display: flex;
+    flex-direction: column;
+    /* align-items:flex-end; */
+    /* justify-content: last baseline; */
+    padding: 15px;
+
+}
+
+.contents h1 {
+    color: #e3e699;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.contents p {
+    line-height: 2;
+    font-size: 14px;
+    color: #ffff;
+}
+
+.tipContainer {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.tipBox {
+    display: flex;
+    padding: 15px;
+}
+
+.tipContent h2 {
+    /* padding: 5px; */
+    font-size: 16px;
+    font-weight: 100;
+    color: #e3e699;
+    line-height: 13px;
+    letter-spacing: 0.028em;
+    margin: 0;
+    padding: 0 15px 10px;
+}
+
+.tipContent {
+    color: #ffffff;
+    letter-spacing: 0.022em;
+    line-height: 18px;
+    text-align: left;
+    margin: 1 px 2px 3px 4px;
+}
+
+.tipContent p {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.tipBox img {
+
+    border: 1px solid white;
+}
+
+.u2 h3 {
+    font-size: 18px;
+    border-bottom: 2px solid #b3cca4;
+    font-weight: 100;
+    padding: 9px;
+    background-color: #dce9d4;
+    margin: 20px;
+    color: #836145;
+    /* height: 37px; */
+}
+
+.cardContainer {
+    display: grid;
+    padding: 0 0 20px 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.cardBox p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4b4b4b;
+}
+
+.cardBox h2 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #836145;
+    font-weight: 100;
+    padding: 20px 0 10px;
+}
+
+
+.footer {
+    border-top: 1px solid #d7d6cd;
+    margin: 0 20px;
+    overflow: hidden;
+    padding: 23px 0;
+}
+
+.u2 .p1 {
+    background: #356618;
+    color: #ffffff;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #8da181;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.footerUpperContainer {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.footerUpperContainer .contents h2 {
+    font-size: 18px;
+    border-bottom: 2px solid #b3cca4;
+    font-weight: 100;
+    padding: 9px;
+    background-color: #dce9d4;
+    margin: 0 20px 20px 20px;
+    color: #836145;
+}
+
+.footerUpperContainer .contents p {
+    color: #4b4b4b;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 0 22px;
+    font-weight: normal;
+    letter-spacing: 0.028em;
+    /* line-height: 24px; */
+}
+
+.footerLowerContainer {
+    display: flex;
+    background-color: rgba(220, 233, 212, 255);
+    border-top: 1px solid #b8d0aa;
+}
+
+.footerLowerContainer .footerBox {
+    border-left: 1px solid #b8d0aa;
+    padding: 20px;
+}
+
+.footerLowerContainer .footerBox1 {
+    border-left: 1px solid #b8d0aa;
+    /* padding: 20px; */
+}
+
+.footerLowerContainer .footerBox h2 {
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 13px;
+    text-shadow: 1px 1px 1px #ffffff;
+    text-transform: uppercase;
+}
+
+.footerLowerContainer .footerBox1 h2 {
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px 20px 12px 20px;
+    text-shadow: 1px 1px 1px #ffffff;
+    text-transform: uppercase;
+
+}
+
+.footerLowerContainer .footerBox a {
+    color: #8c8c8c;
+    display: block;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    letter-spacing: 0.028em;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerLowerContainer .footerBox1 li {
+    list-style-type: none;
+
+}
+
+.footerLowerContainer .footerBox1 li i {
+    font-size: 20px;
+    color: #356618;
+    margin-left: 25px;
+
+}
+
+.footerLowerContainer .footerBox1 a {
+    text-decoration: none;
+    color: #8c8c8c;
+    /* display: block; */
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    letter-spacing: 0.028em;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+#menu-btn {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:576px) {
+    .bgContainer {
+        background-color: #356618;
+        width: 80%;
+        height: 530vh;
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        /* padding: 10px; */
+        margin: 0px 2px 2px 50px;
+    }
+
+    .logo {
+        width: 100%;
+        height: 15vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #menu-btn {
+        display: flex;
+        margin-right: 20px;
+    }
+
+    .u2 {
+        background-color: white;
+        width: 100%;
+        height: 390vh;
+        /* margin-top: 10px; */
+        padding-top: 5px;
+
+    }
+
+    .u1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 89%;
+        /* margin-left: 23px; */
+    }
+
+    .logo img {
+        width: 60%;
+        margin: 5px 0 0 5px;
+
+    }
+
+    .navLinks {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 16px 10px;
+        background-color: #4b4b4b;
+        display: none;
+    }
+
+    .navLinks li {
+        list-style-type: none;
+    }
+
+    .navLinks a {
+        text-decoration: none;
+        color: #F0F2C9;
+    }
+
+    .navLinks li a:hover {
+        background-color: #F0F2C9;
+        color: #1b330c;
+    }
+
+    .heroContainer {
+        background-image: url(./images/gardening1.jpg);
+        background-repeat: no-repeat;
+        height: 60vh;
+        display: flex;
+        align-items: flex-end;
+        /* background: center; */
+
+    }
+
+    .heroContainer .contents {
+        /* margin-top: 50px; */
+        background-color: rgba(57, 57, 57, 0.7);
+        display: flex;
+        flex-direction: column;
+        /* align-items:flex-end; */
+        /* justify-content: last baseline; */
+        /* padding: 10px; */
+
+    }
+
+    .contents h1 {
+        color: #e3e699;
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+    .contents p {
+        line-height: 1.5;
+        font-size: 14px;
+        color: #ffff;
+    }
+
+    .tipContainer {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .tipBox {
+        display: flex;
+        padding: 15px;
+    }
+
+    .tipContent h2 {
+        /* padding: 5px; */
+        font-size: 16px;
+        font-weight: 100;
+        color: #e3e699;
+        line-height: 13px;
+        letter-spacing: 0.028em;
+        margin: 0;
+        padding: 0 15px 10px;
+    }
+
+    .tipContent {
+        color: #ffffff;
+        letter-spacing: 0.022em;
+        line-height: 18px;
+        text-align: left;
+        margin: 1 px 2px 3px 4px;
+    }
+
+    .tipContent p {
+        margin-left: 15px;
+        font-size: 14px;
+    }
+
+    .tipBox img {
+
+        border: 1px solid white;
+    }
+
+    .u2 h3 {
+        font-size: 18px;
+        border-bottom: 2px solid #b3cca4;
+        font-weight: 100;
+        padding: 9px;
+        background-color: #dce9d4;
+        margin: 20px;
+        color: #836145;
+        /* height: 37px; */
+    }
+
+    .cardContainer {
+        display: grid;
+        padding: 0 0 20px 20px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    }
+
+    .cardBox img {
+        margin-left: 60px;
+    }
+
+    .cardBox p {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #4b4b4b;
+        text-align: center;
+        padding: 5px 0 20px 0;
+    }
+
+    .cardBox h2 {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #836145;
+        font-weight: 100;
+        padding: 20px 0 10px;
+        text-align: center;
+    }
+
+
+    .footer {
+        border-top: 1px solid #d7d6cd;
+        margin: 0 20px;
+        overflow: hidden;
+        padding: 23px 0;
+    }
+
+    .u2 .p1 {
+        background: #356618;
+        color: #ffffff;
+        height: 37px;
+        line-height: 37px;
+        text-align: center;
+        text-shadow: 1px 1px 1px #8da181;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+    .footerUpperContainer {
+        display: flex;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .footerUpperContainer .contents h2 {
+        font-size: 18px;
+        border-bottom: 2px solid #b3cca4;
+        font-weight: 100;
+        padding: 9px;
+        background-color: #dce9d4;
+        margin: 10px 20px 20px 0px;
+        color: #836145;
+        
+    }
+
+    .footerUpperContainer .contents p {
+        color: #4b4b4b;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 3px 0 3px 22px;
+        font-weight: normal;
+        letter-spacing: 0.028em;
+        /* line-height: 24px; */
+    }
+
+    .footerLowerContainer {
+        display: flex;
+        background-color: rgba(220, 233, 212, 255);
+        border-top: 1px solid #b8d0aa;
+        flex-direction: column;
+    }
+
+    .footerLowerContainer .footerBox {
+        border-left: 1px solid #b8d0aa;
+        padding: 20px;
+    }
+
+    .footerLowerContainer .footerBox1 {
+        border-left: 1px solid #b8d0aa;
+        /* padding: 20px; */
+    }
+
+    .footerLowerContainer .footerBox h2 {
+        color: #8c8c8c;
+        font-size: 18px;
+        font-weight: normal;
+        margin: 0;
+        padding: 0 0 13px;
+        text-shadow: 1px 1px 1px #ffffff;
+        text-transform: uppercase;
+    }
+
+    .footerLowerContainer .footerBox1 h2 {
+        color: #8c8c8c;
+        font-size: 18px;
+        font-weight: normal;
+        margin: 0;
+        padding: 20px 20px 12px 20px;
+        text-shadow: 1px 1px 1px #ffffff;
+        text-transform: uppercase;
+
+    }
+
+    .footerLowerContainer .footerBox a {
+        color: #8c8c8c;
+        display: block;
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        letter-spacing: 0.028em;
+        line-height: 18px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .footerLowerContainer .footerBox1 li {
+        list-style-type: none;
+
+    }
+
+    .footerLowerContainer .footerBox1 li i {
+        font-size: 20px;
+        color: #356618;
+        margin-left: 25px;
+
+    }
+
+    .footerLowerContainer .footerBox1 a {
+        text-decoration: none;
+        color: #8c8c8c;
+        /* display: block; */
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        letter-spacing: 0.028em;
+        line-height: 18px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+    }
+
+
+}
